@@ -5,6 +5,9 @@ console.log(resolve)
 
 export default defineConfig({
     base: "./",
+    server: {
+      open: '/nested/about.html',
+    },
     build: {
       outDir : "docs",
       cssMinify: false,
